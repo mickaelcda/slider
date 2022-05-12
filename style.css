@@ -11,8 +11,8 @@ body {
 .slider{
   width: 900px;
   height: 600px;
-   margin: 100px auto 0 ; /* 100px en haut auto a gauche et a droite 0 en bas  */
-   position: relative; 
+  margin: 100px auto 0 ; /* 100px en haut auto a gauche et a droite 0 en bas  */
+  position: relative; 
 }
 .cont-slide {
   width: 100%;
@@ -22,8 +22,8 @@ body {
   width: 100%;
   height: auto;
   position: absolute;
-  /* opacity: 0;
-  transition: opacity 0.2 ease-in-out; */
+  opacity: 0;
+  transition: opacity 0.2 ease-in-out;
 }
 .commandes {
   top: 0px;
@@ -40,6 +40,8 @@ body {
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  background: rgba(210, 208, 208, 0.487);
+  
 }
 .commandes img { 
   width: 30%;
